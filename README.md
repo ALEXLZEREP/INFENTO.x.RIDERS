@@ -3,7 +3,7 @@ A collaborative space for creative projects using Infento kits and Riders techno
 
 Welcome to the INFENTO.x.RIDERS repository! This is a collaborative space where we showcase a variety of creative and innovative projects using Infento kits and Arduino technology from Riders. Whether you're a beginner or an experienced maker, you'll find exciting project ideas, detailed instructions, and helpful resources to bring your creations to life.
 
-What's Inside?
+# What's Inside?
 **Project Ideas**: Explore a wide range of project ideas, from simple builds to complex designs.
 
 **Detailed Instructions**: Step-by-step guides to program your projects.
@@ -14,7 +14,7 @@ Get Started!
 Browse Projects: Check out the different project folders to find inspiration based on Riders lessons iand get started.
 
 
-**License**
+# **License**
 This project is licensed under the GNU General Public License (GPL) v3.0. This license ensures that the work remains free and open-source, allowing others to use, modify, and distribute it. However, any derivative work must also be open-source and licensed under the GPL. 
 
 - **Attribution**: Contributors must give appropriate credit to the original authors.
