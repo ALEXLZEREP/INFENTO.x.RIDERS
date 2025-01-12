@@ -1,1 +1,51 @@
 
+# *Components Needed*
+ -Arduino board
+ -Speaker
+ -Push button
+ -Wires
+ -Breadboard (if user is more comfortable with it)
+
+
+# *Wiring Diagram* 
+   Connect one leg of the push button to a digital pin (e.g., pin 2) on the Arduino.
+
+   Connect the other leg of the push button to the ground (GND).
+
+   Connect the positive terminal of the speaker to a PWM pin (e.g., pin 9) on the Arduino.
+
+   Connect the negative terminal of the speaker to the ground (GND).
+
+**(Change the pins if you feel. Specific pins are not needed, this guide has randomized pin numbers.
+Please feel free to use whats better for you!)**
+
+
+# *The code*
+
+const int buttonPin = 2;    // Pin connected to the push button
+const int speakerPin = 9;   // Pin connected to the speaker
+
+void setup() {
+  pinMode(buttonPin, INPUT);
+  pinMode(speakerPin, OUTPUT);
+}
+
+void loop() {
+  int buttonState = digitalRead(buttonPin);
+
+  if (buttonState == HIGH) {
+    tone(speakerPin, 1000); // Play a 1000 Hz tone
+  } else {
+    noTone(speakerPin);     // Stop the tone
+  }
+}
+
+
+
+
+
+
+
+
+
+
